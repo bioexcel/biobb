@@ -30,3 +30,22 @@ Licensed under the
 [LICENSE](LICENSE) for details.
 
 ![](https://bioexcel.eu/wp-content/uploads/2015/12/Bioexcell_logo_1080px_transp.png "Bioexcel")
+
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "SoftwareApplication",
+      "description": "Biobb (BioExcel building blocks) packages are Python building blocks that create new layer of compatibility and interoperability over popular bioinformatics tools.",
+      "name": "BioBB",
+      "url": "https://github.com/bioexcel/biobb",
+      "additionalType": "Library",
+      "applicationCategory": "Computational Biology tool",
+      "applicationSubCategory": "http://www.edamontology.org/topic_3892",
+      "citation": "https://zenodo.org/record/263965#.XG7n_C2ZNTY",
+      "license": "https://www.apache.org/licenses/LICENSE-2.0",
+      "softwareVersion": "0.1.0",
+      "applicationSuite": "BioBB BioExcel Building Blocks",
+      "codeRepository": "https://github.com/bioexcel/biobb",
+      "isAccessibleForFree": "True"
+    }
+    </script>
