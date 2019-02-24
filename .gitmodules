@@ -1,0 +1,24 @@
+[submodule "biobb/biobb_io"]
+	path = biobb/biobb_io
+	url = https://github.com/bioexcel/biobb_io
+[submodule "biobb/biobb_model"]
+	path = biobb/biobb_model
+	url = https://github.com/bioexcel/biobb_model
+[submodule "biobb/biobb_md"]
+	path = biobb/biobb_md
+	url = https://github.com/bioexcel/biobb_md
+[submodule "biobb/biobb_analysis"]
+	path = biobb/biobb_analysis
+	url = https://github.com/bioexcel/biobb_analysis
+[submodule "biobb/biobb_wf_mutations"]
+	path = biobb/biobb_wf_mutations
+	url = https://github.com/bioexcel/biobb_wf_mutations
+[submodule "biobb/biobb_adapters"]
+	path = biobb/biobb_adapters
+	url = https://github.com/bioexcel/biobb_adapters
+[submodule "biobb/biobb_common"]
+	path = biobb/biobb_common
+	url = https://github.com/bioexcel/biobb_common
+[submodule "biobb/biobb_template"]
+	path = biobb/biobb_template
+	url = https://github.com/bioexcel/biobb_template
