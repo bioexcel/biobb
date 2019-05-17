@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="biobb",
-    version="1.0.0",
+    version="1.0.1",
     author="Biobb developers",
     author_email="pau.andrio@bsc.es",
     description="Biobb module collection.",
@@ -20,7 +20,7 @@ setuptools.setup(
     packages=setuptools.find_packages(exclude=['docs', 'test']),
     install_requires=['m2r',
                       'biobb_common==1.1.6',
-                      'biobb_io==1.1.6'
+                      'biobb_io==1.1.6',
                       'biobb_model==1.1.9',
                       'biobb_md==1.1.6',
                       'biobb_analysis==1.0.3',
