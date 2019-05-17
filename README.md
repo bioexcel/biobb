@@ -15,7 +15,7 @@ The latest documentation of our biobb collections can be found in our readthedoc
 - [biobb_template](http://biobb_template.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_template): Boilerplate code and template examples to create your own Biobbs.
 
 ### Version
-February 2019 Release
+v1.0.0 May 2019 Release
 
 ### Copyright & Licensing
 This software has been developed in the MMB group (http://mmb.irbbarcelona.org) at the

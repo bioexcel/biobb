@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="biobb",
-    version="0.1.0",
+    version="1.0.0",
     author="Biobb developers",
     author_email="pau.andrio@bsc.es",
     description="Biobb module collection.",
@@ -18,8 +18,16 @@ setuptools.setup(
         "Bioexcel": "https://bioexcel.eu/"
     },
     packages=setuptools.find_packages(exclude=['docs', 'test']),
-    install_requires=['m2r'],
-    python_requires='>=3',
+    install_requires=['m2r',
+                      'biobb_common==1.1.6',
+                      'biobb_io==1.1.6'
+                      'biobb_model==1.1.9',
+                      'biobb_md==1.1.6',
+                      'biobb_analysis==1.0.3',
+                      'biobb_chemistry==1.0.6',
+                      'biobb_pmx==1.0.0'
+                      ],
+    python_requires='==3.6.*',
     classifiers=(
         "Development Status :: 3 - Alpha",
         "Programming Language :: Python :: 3",
