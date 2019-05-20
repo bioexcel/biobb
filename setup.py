@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="biobb",
-    version="1.0.1",
+    version="1.0.2",
     author="Biobb developers",
     author_email="pau.andrio@bsc.es",
     description="Biobb module collection.",
