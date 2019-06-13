@@ -49,7 +49,7 @@ def main(yes_to_all=False):
         pattern_message_conf = re.compile(r"release = u\'.*\'")
         with open(os.path.join(repo_path, repo, 'docs', 'source', 'conf.py'), 'r+') as conf_file:
             lines = conf_file.readlines()
-            for index, line in lines:
+            for index, line in enumerate(lines):
                 if pattern_version_conf.search(line):
                     index_version_conf = index
                 if pattern_message_conf.search(line):
@@ -66,7 +66,7 @@ def main(yes_to_all=False):
         pattern_copyright_readme = re.compile(r"\* \(c\) 2015-(?P<year>\d\d\d\d)")
         with open(os.path.join(repo_path, 'README.md'), 'r+') as readme_file:
             lines = readme_file.readlines()
-            for index, line in lines:
+            for index, line in enumerate(lines):
                 if pattern_version_readme.search(line):
                     index_version_readme = index+1
                 if pattern_copyright_readme.search(line):
@@ -86,7 +86,7 @@ def main(yes_to_all=False):
         pattern_version_json = re.compile(r'"version": "[\d.]+",')
         with open(os.path.join(repo_path, repo, 'json_schemas', repo+'.json'), 'r+') as json_file:
             lines = json_file.readlines()
-            for index, line in lines:
+            for index, line in enumerate(lines):
                 if pattern_version_json.search(line):
                     index_version_json = index
                     break
@@ -150,7 +150,7 @@ def main(yes_to_all=False):
         with open(os.path.join(bioconda_recipes_dir, 'recipes', 'meta.yaml'), 'r+') as meta_file:
             pattern_version_meta = re.compile(r"{% set version = \"(?P<version>[\d.]+)\" %}")
             lines = meta_file.readlines()
-            for index, line in lines:
+            for index, line in enumerate(lines):
                 if pattern_version_meta.match(line):
                     index_version_meta = index
                 if pattern_hash_value.match(line):
@@ -179,7 +179,7 @@ def main(yes_to_all=False):
             with open(dockerfile_path, 'r+') as dockerfile:
                 pattern_version_docker = re.compile("RUN conda install -y "+repo+r"==[\d\.]+")
                 lines = meta_file.readlines()
-                for index, line in lines:
+                for index, line in enumerate(lines):
                     if pattern_version_docker.search(line):
                         index_version_docker = index
                 lines[index_version_docker] = "RUN conda install -y "+repo+"=="+ver_new+ "\n"
@@ -212,7 +212,7 @@ def main(yes_to_all=False):
             with open(dockerfile_path, 'r+') as dockerfile:
                 pattern_version_singularity = re.compile("From: "+repo+":"+r"[\d\.]+")
                 lines = meta_file.readlines()
-                for index, line in lines:
+                for index, line in enumerate(lines):
                     if pattern_version_singularity.search(line):
                         index_version_singularity = index
                 lines[index_version_singularity] = "From: "+repo+":"+ver_new+"--py_0"+"\n"
@@ -260,7 +260,7 @@ def get_current_version(setuppy_path, replace=True, ver_new=None):
     pattern = re.compile(r"version\s*=\s*\"(?P<ver>\d\.\d\.\d)\"\s*,")
     with open(setuppy_path, 'r+') as setup_file:
         lines = setup_file.readlines()
-        for index, line in lines:
+        for index, line in enumerate(lines):
             if pattern.search(line):
                 ver_current = pattern.match(line).groupdict().get('ver')
                 if not replace:
