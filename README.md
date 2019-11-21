@@ -15,9 +15,10 @@ The latest documentation of our biobb collections can be found in our readthedoc
 - [biobb_template](http://biobb_template.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_template): Boilerplate code and template examples to create your own Biobbs.
 - [biobb_chemistry](http://biobb_chemistry.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_chemistry): Biobb_chemistry is the Biobb module collection to perform chemistry over molecular dynamics simulations.
 - [biobb_pmx](http://biobb_pmx.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_pmx): Biobb_pmx is the Biobb module collection to perform PMX (http://pmx.mpibpc.mpg.de) executions.
+- [biobb_structure_utils](http://biobb_structure_utils.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_structure_utils): Biobb_structure_utils is the Biobb module collection to modify or extract information from a PDB structure file, such as pulling out a particular model or chain, removing water molecules or ligands, or renumbering or sorting atoms or residues.
 
 ### Version
-v1.0.2 May 2019 Release
+v2.0.0 2019.4
 
 ### Copyright & Licensing
 This software has been developed in the MMB group (http://mmb.irbbarcelona.org) at the
