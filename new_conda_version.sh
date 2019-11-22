@@ -10,7 +10,8 @@ read -p "Commit message ie Feb 2019 Release : " message
 echo "Repository: $REPOSITORY"
 echo "Version: $version"
 echo "Message: $message"
-read -p "Before opening setup.py remember to check if some dependency has changed..." -n1 -s
+read -p "Before opening setup.py remember to check if some dependency has changed. Press any key to continue..." -n1 -s
+echo ""
 subl $path_biobb$REPOSITORY/setup.py
 read -p "Modify setup.py with the new version number and press any key..." -n1 -s
 echo ""
@@ -40,10 +41,10 @@ done
 subl $path_user$REPOSITORY/meta.yaml
 read -p "Copy the headers (lines that starts with {%) from  ~/$REPOSITORY/meta.yaml and press any key..." -n1 -s
 echo ""
-cd $path_biobbbioconda-recipes/
+cd ${path_biobb}bioconda-recipes/
 git checkout -f master; git pull origin master
 git branch -D $REPOSITORY; git push origin --delete $REPOSITORY; git checkout -b $REPOSITORY
-subl $path_biobbbioconda-recipes/recipes/$REPOSITORY
+subl ${path_biobb}bioconda-recipes/recipes/$REPOSITORY
 read -p "Modify recipes/$REPOSITORY/build.sh and press any key..." -n1 -s
 echo ""
 read -p "Modify recipes/$REPOSITORY/meta.yaml paste the headers and check if some dependency has changed from ~/$REPOSITORY/meta.yaml and press any key..." -n1 -s
