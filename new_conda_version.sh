@@ -4,12 +4,23 @@
 #Activate conda
 path_user=path_to_user_home
 path_biobb=${path_user}path_to_biobb_project
+path_json_schemas=path_to_json_generator/
 read -p "Repository name ie biobb_md : " REPOSITORY
 read -p "Version number ie 0.1.2 : " version
 read -p "Commit message ie Feb 2019 Release : " message
 echo "Repository: $REPOSITORY"
 echo "Version: $version"
 echo "Message: $message"
+read -p "Do you want to run tests for this repository [Y/n]? " test
+if [ $test == 'y' -o $test == 'Y'  ]
+then
+	nosetests -s $path_biobb$REPOSITORY/$REPOSITORY/test/unitests
+fi
+read -p "Do you want to generate json schemas for this repository [Y/n]? " json_schemas
+if [ $json_schemas == 'y' -o $json_schemas == 'Y'  ]
+then
+	python3 ${path_json_schemas}json_generator.py -p $REPOSITORY -o $path_biobb$REPOSITORY/$REPOSITORY/json_schemas
+fi
 read -p "Before opening setup.py remember to check if some dependency has changed. Press any key to continue..." -n1 -s
 echo ""
 subl $path_biobb$REPOSITORY/setup.py
@@ -20,6 +31,12 @@ read -p "Modify README.md with the new version number (in version and instructio
 echo ""
 subl $path_biobb$REPOSITORY/$REPOSITORY/json_schemas/$REPOSITORY.json
 read -p "Modify $REPOSITORY.json with the new version number and the check if some dependency has changed..." -n1 -s
+echo ""
+subl $path_biobb$REPOSITORY/$REPOSITORY/docs/source/conf.py
+read -p "Modify conf.py with the new version number..." -n1 -s
+echo ""
+subl $path_biobb$REPOSITORY/$REPOSITORY/docs/source/schema.html
+read -p "Modify schema.html with the new version number..." -n1 -s
 echo ""
 cd $path_biobb$REPOSITORY
 cp -v $path_biobb$REPOSITORY/README.md $path_biobb$REPOSITORY/$REPOSITORY/docs/source/readme.md
