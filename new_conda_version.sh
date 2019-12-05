@@ -8,7 +8,7 @@ path_biobb=${path_user}path_to_biobb_project
 path_json_schemas=path_to_json_generator/
 read -p "Repository name ie biobb_md : " REPOSITORY
 read -p "Version number ie 0.1.2 : " version
-read -p "Commit message ie Feb 2019 Release : " message
+read -p "Commit message ie 2019.4 : " message
 echo "Repository: $REPOSITORY"
 echo "Version: $version"
 echo "Message: $message"
