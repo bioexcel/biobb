@@ -2,6 +2,7 @@
 
 #Usage: ./new_conda_version.sh
 #Activate conda
+ide=subl
 path_user=path_to_user_home
 path_biobb=${path_user}path_to_biobb_project
 path_json_schemas=path_to_json_generator/
@@ -23,19 +24,19 @@ then
 fi
 read -p "Before opening setup.py remember to check if some dependency has changed. Press any key to continue..." -n1 -s
 echo ""
-subl $path_biobb$REPOSITORY/setup.py
+$ide $path_biobb$REPOSITORY/setup.py
 read -p "Modify setup.py with the new version number and press any key..." -n1 -s
 echo ""
-subl $path_biobb$REPOSITORY/README.md
+$ide $path_biobb$REPOSITORY/README.md
 read -p "Modify README.md with the new version number (in version and instructions) and press any key..." -n1 -s
 echo ""
-subl $path_biobb$REPOSITORY/$REPOSITORY/json_schemas/$REPOSITORY.json
+$ide $path_biobb$REPOSITORY/$REPOSITORY/json_schemas/$REPOSITORY.json
 read -p "Modify $REPOSITORY.json with the new version number and the check if some dependency has changed..." -n1 -s
 echo ""
-subl $path_biobb$REPOSITORY/$REPOSITORY/docs/source/conf.py
+$ide $path_biobb$REPOSITORY/$REPOSITORY/docs/source/conf.py
 read -p "Modify conf.py with the new version number..." -n1 -s
 echo ""
-subl $path_biobb$REPOSITORY/$REPOSITORY/docs/source/schema.html
+$ide $path_biobb$REPOSITORY/$REPOSITORY/docs/source/schema.html
 read -p "Modify schema.html with the new version number..." -n1 -s
 echo ""
 cd $path_biobb$REPOSITORY
@@ -55,13 +56,13 @@ do
   cd ~; conda skeleton pypi $REPOSITORY --version $version
   retval=$?
 done
-subl $path_user$REPOSITORY/meta.yaml
+$ide $path_user$REPOSITORY/meta.yaml
 read -p "Copy the headers (lines that starts with {%) from  ~/$REPOSITORY/meta.yaml and press any key..." -n1 -s
 echo ""
 cd ${path_biobb}bioconda-recipes/
 git checkout -f master; git pull origin master
 git branch -D $REPOSITORY; git push origin --delete $REPOSITORY; git checkout -b $REPOSITORY
-subl ${path_biobb}bioconda-recipes/recipes/$REPOSITORY
+$ide ${path_biobb}bioconda-recipes/recipes/$REPOSITORY
 read -p "Modify recipes/$REPOSITORY/build.sh and press any key..." -n1 -s
 echo ""
 read -p "Modify recipes/$REPOSITORY/meta.yaml paste the headers and check if some dependency has changed from ~/$REPOSITORY/meta.yaml and press any key..." -n1 -s
