@@ -16,9 +16,11 @@ The latest documentation of our biobb collections can be found in our readthedoc
 - [biobb_pmx](http://biobb_pmx.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_pmx): Biobb_pmx is the Biobb module collection to perform [PMX](http://pmx.mpibpc.mpg.de) executions.
 - [biobb_structure_utils](http://biobb_structure_utils.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_structure_utils): Biobb_structure_utils is the Biobb module collection to modify or extract information from a PDB structure file.
 - [biobb_ml](https://biobb-ml.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_ml): Biobb_ml is the Biobb module collection to perform machine learning predictions. 
+- [biobb_amber](https://biobb-amber.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_amber): Biobb_amber is a BioBB category for AMBER MD package, allowing setup and simulation of atomistic MD simulations using AMBER MD package and its associated AMBER tools.
+- [biobb_vs](https://biobb-vs.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_vs): Biobb_vs is the Biobb module collection to perform virtual screening studies.
 
 ### Version
-v3.0.0 2020.2
+v3.5.0 2020.4
 
 ### Copyright & Licensing
 This software has been developed in the [MMB group](http://mmb.irbbarcelona.org) at the [BSC](http://www.bsc.es/) & [IRB](https://www.irbbarcelona.org/) for the [European BioExcel](http://bioexcel.eu/), funded by the European Commission (EU H2020 [823830](http://cordis.europa.eu/projects/823830), EU H2020 [675728](http://cordis.europa.eu/projects/675728)).
