@@ -1,27 +1,22 @@
 /* override table width restrictions as found on https://github.com/getpelican/pelican/issues/1311 */
-a { color:#5e738b; }
-a:hover { color:#5e738b; }
-a:visited { color:#8c9db1; }
+a { color:#dcbc3c; }
+a:hover { color:#29b3b6; }
+a:visited { color:#9e8830; }
 
 .highlight { background: #fffae4; }
 
-/*.rst-content dl:not(.docutils) dt { background: #d5f0f1; color: #5e738b; border-top: solid 3px #5e738b; }*/
-html.writer-html4 .rst-content dl:not(.docutils)>dt, 
-html.writer-html5 .rst-content dl[class]:not(.option-list):not(.field-list):not(.footnote):not(.glossary):not(.simple)>dt { 
-    background: #d5f0f1; color: #5e738b; border-top: solid 3px #5e738b;
-}
-dl.simple dt { border: none!important; background: transparent!important; }
-.rst-content .viewcode-link, .rst-content .viewcode-back { color: #5e738b; }
-.rst-versions .rst-current-version { color: #5e738b; }
+.rst-content dl:not(.docutils) dt { background: #d5f0f1; color: #29b3b5; border-top: solid 3px #29b3b5; }
+.rst-content .viewcode-link, .rst-content .viewcode-back { color: #dcbc3c; }
+.rst-versions .rst-current-version { color: #29b3b5; }
 
 .wy-table-responsive table td, .wy-table-responsive table th { white-space: normal !important; }
 .wy-table-responsive { overflow: visible !important; }
 
-.wy-menu-vertical a:active { background-color: #5e738b; }
+.wy-menu-vertical a:active { background-color: #29b3b6; }
 
 .wy-nav-content { max-width: 1200px; margin: unset; }
 
-.wy-side-nav-search { background-color: #5e738b; }
+.wy-side-nav-search { background-color: #29b3b6; }
 .wy-side-nav-search>a:hover { background:none; }
 .wy-side-nav-search>div.version { color:rgba(255, 255, 255, 1); }
 
@@ -30,9 +25,8 @@ dl.simple dt { border: none!important; background: transparent!important; }
 
 .icon:before { display:none; }
 
-.rst-content blockquote { margin-left: 0; background: #7e8fa1; color:#fff; padding: 15px; }
-.rst-content blockquote code.literal { color: #5e738b; }
-.rst-content blockquote div p { margin-bottom:0; }
+.rst-content blockquote { margin-left: 0; background: #b5e0dd; padding: 15px; }
+.rst-content blockquote code.literal { color: #29b3b6; }
 
 dl.docutils dt {
     background: transparent!important;

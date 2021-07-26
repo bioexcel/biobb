@@ -1,3 +1,5 @@
+[![](https://readthedocs.org/projects/biobb/badge/?version=latest)](https://biobb.readthedocs.io/en/latest/?badge=latest)
+
 # biobb
 
 ### Introduction
