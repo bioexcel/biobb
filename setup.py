@@ -18,8 +18,7 @@ setuptools.setup(
         "Bioexcel": "https://bioexcel.eu/"
     },
     packages=setuptools.find_packages(exclude=['docs', 'test']),
-    install_requires=['m2r',
-                      'biobb_common==3.6.0',
+    install_requires=['biobb_common==3.6.0',
                       'biobb_io==3.6.0',
                       'biobb_model==3.6.0',
                       'biobb_md==3.6.0',
