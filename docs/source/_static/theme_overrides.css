@@ -1,0 +1,54 @@
+/* override table width restrictions as found on https://github.com/getpelican/pelican/issues/1311 */
+a { color:#dcbc3c; }
+a:hover { color:#29b3b6; }
+a:visited { color:#9e8830; }
+
+.highlight { background: #fffae4; }
+
+.rst-content dl:not(.docutils) dt { background: #d5f0f1; color: #29b3b5; border-top: solid 3px #29b3b5; }
+.rst-content .viewcode-link, .rst-content .viewcode-back { color: #dcbc3c; }
+.rst-versions .rst-current-version { color: #29b3b5; }
+
+.wy-table-responsive table td, .wy-table-responsive table th { white-space: normal !important; }
+.wy-table-responsive { overflow: visible !important; }
+
+.wy-menu-vertical a:active { background-color: #29b3b6; }
+
+.wy-nav-content { max-width: 1200px; margin: unset; }
+
+.wy-side-nav-search { background-color: #29b3b6; }
+.wy-side-nav-search>a:hover { background:none; }
+.wy-side-nav-search>div.version { color:rgba(255, 255, 255, 1); }
+
+/* !!! */
+.ethical-rtd.ethical-dark-theme { display: none; }
+
+.icon:before { display:none; }
+
+.rst-content blockquote { margin-left: 0; background: #b5e0dd; padding: 15px; }
+.rst-content blockquote code.literal { color: #29b3b6; }
+
+dl.docutils dt {
+    background: transparent!important;
+    border-left: none!important;
+    font-size: 100%!important;
+    color: #404340!important;
+}
+
+.line-block .line:first-child {
+	display: none;
+}
+
+p.rubric:after {
+    content: ":";
+}
+
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) {
+
+    dl.first.docutils { 
+
+        margin-top:-27px; 
+
+    }
+}}
