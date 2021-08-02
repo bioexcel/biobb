@@ -2,7 +2,7 @@
 
 # biobb
 
-### Introduction
+## Introduction
 Biobb (BioExcel building blocks) packages are Python building blocks that
 create new layer of compatibility and interoperability over popular
 bioinformatics tools.
@@ -21,10 +21,14 @@ The latest documentation of our biobb collections can be found in our readthedoc
 - [biobb_amber](https://biobb-amber.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_amber): Biobb_amber is a BioBB category for AMBER MD package, allowing setup and simulation of atomistic MD simulations using AMBER MD package and its associated AMBER tools.
 - [biobb_vs](https://biobb-vs.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_vs): Biobb_vs is the Biobb module collection to perform virtual screening studies.
 
-### Version
+## Videos
+- Introduction to BioExcel Building Blocks: [https://www.youtube.com/watch?v=I7ZxRBhYO3E](https://www.youtube.com/watch?v=I7ZxRBhYO3E)
+- Introduction to workflows with BioExcel Building Blocks: [https://www.youtube.com/watch?v=ou1DOGNs0xM](https://www.youtube.com/watch?v=ou1DOGNs0xM)
+
+## Version
 v3.6.0 2021.2
 
-### Copyright & Licensing
+## Copyright & Licensing
 This software has been developed in the [MMB group](http://mmb.irbbarcelona.org) at the [BSC](http://www.bsc.es/) & [IRB](https://www.irbbarcelona.org/) for the [European BioExcel](http://bioexcel.eu/), funded by the European Commission (EU H2020 [823830](http://cordis.europa.eu/projects/823830), EU H2020 [675728](http://cordis.europa.eu/projects/675728)).
 
 * (c) 2015-2021 [Barcelona Supercomputing Center](https://www.bsc.es/)

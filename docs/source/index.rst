@@ -9,7 +9,7 @@ Contents
 .. toctree::
    :maxdepth: 1
 
-   Introduction & installation <readme>
+   Introduction <readme>
 
 Indices and tables
 ==================
