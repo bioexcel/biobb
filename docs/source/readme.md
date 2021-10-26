@@ -37,7 +37,7 @@ The latest documentation of our biobb collections can be found in our readthedoc
 
 ## Version
 
-v3.6.0 2021.2
+v3.7.0 2021.3
 
 ## Copyright & Licensing
 
