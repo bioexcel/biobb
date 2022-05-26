@@ -29,6 +29,7 @@ The latest documentation of our biobb collections can be found in our readthedoc
 - [biobb_amber](https://biobb-amber.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_amber): Biobb_amber is a BioBB category for AMBER MD package, allowing setup and simulation of atomistic MD simulations using AMBER MD package and its associated AMBER tools.
 - [biobb_vs](https://biobb-vs.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_vs): Biobb_vs is the Biobb module collection to perform virtual screening studies.
 - [biobb_dna](https://biobb-dna.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_dna): Biobb_dna is the Biobb module collection to perform analyses and transformations on nucleic acid trajectories and helical parameter data.
+- [biobb_cmip](https://biobb-cmip.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_cmip): Biobb_cmip is the Biobb module collection to compute classical molecular interaction potentials. 
 
 ## Videos
 
