@@ -17,7 +17,7 @@ Feedback and contact: <http://mmb.irbbarcelona.org/biobb/contact>
 The latest documentation of our biobb collections can be found in our readthedocs sites:
 - [biobb_io](http://biobb_io.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_io): Biobb_io is the Biobb module collection to fetch data to be consumed by the rest of the Biobb building blocks.
 - [biobb_model](http://biobb_model.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_model): Biobb_model is the Biobb module collection to check and model 3d structures, create mutations or reconstruct missing atoms.
-- [biobb_md](http://biobb_md.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_md): Biobb_md is the Biobb module collection to perform molecular dynamics simulations.
+- [biobb_md](http://biobb_md.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_md): Biobb_md is the Biobb module collection to perform molecular dynamics simulations. **IMPORTANT:** This package has been discontinued, superseeded by biobb_gromacs.
 - [biobb_analysis](http://biobb_analysis.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_analysis): Biobb_analysis is the Biobb module collection to perform analysis of molecular dynamics simulations.
 - [biobb_adapters](http://biobb_adapters.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_adapters): Biobb_adapters is the Biobb module collection to use the building blocks with several workflow managers.
 - [biobb_common](http://biobb_common.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_common): Biobb_common is the base package required to use the biobb packages
@@ -30,6 +30,8 @@ The latest documentation of our biobb collections can be found in our readthedoc
 - [biobb_vs](https://biobb-vs.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_vs): Biobb_vs is the Biobb module collection to perform virtual screening studies.
 - [biobb_dna](https://biobb-dna.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_dna): Biobb_dna is the Biobb module collection to perform analyses and transformations on nucleic acid trajectories and helical parameter data.
 - [biobb_cmip](https://biobb-cmip.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_cmip): Biobb_cmip is the Biobb module collection to compute classical molecular interaction potentials. 
+- [biobb_cp2k](https://biobb-cp2k.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_cp2k): Biobb_cmip is the Biobb module collection to compute classical molecular interaction potentials. 
+- [biobb_gromacs](https://biobb-gromacs.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_gromacs): Biobb_gromacs is the Biobb module collection to perform molecular dynamics simulations using the GROMACS MD suite.
 
 ## Videos
 
@@ -38,7 +40,7 @@ The latest documentation of our biobb collections can be found in our readthedoc
 
 ## Version
 
-v3.7.0 2022.2
+v3.8.0 2022.3
 
 ## Copyright & Licensing
 
