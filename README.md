@@ -1,5 +1,5 @@
 [![](https://img.shields.io/badge/OS-Unix%20%7C%20MacOS-blue)](https://github.com/bioexcel/biobb)
-[![](https://img.shields.io/pypi/pyversions/biobb.svg?label=Python%20Versions)](https://pypi.org/project/biobb/)
+[![](https://img.shields.io/badge/Python%20Versions-3.8%20%7C%203.9%20%7C%203.10-blue)](https://pypi.org/project/biobb/)
 [![](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![](https://img.shields.io/badge/Open%20Source%3f-Yes!-blue)](https://github.com/bioexcel/biobb)
 
@@ -54,7 +54,7 @@ The latest documentation of our biobb collections can be found in our readthedoc
 
 ## Version
 
-v4.0.0 2023.1
+v4.1.0 2023.3
 
 ## Copyright & Licensing
 
