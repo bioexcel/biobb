@@ -16,7 +16,7 @@
 ## Survey
 
 > **Help us to improve!** 
-Please help us to improve the by filling in our [2023 survey](https://forms.gle/tAK4yGC1e7j8rRiZ8).
+Please help us to **improve** the **BioExcel Building Blocks** by filling in our [**2023 survey**](https://forms.gle/tAK4yGC1e7j8rRiZ8).
 
 ## Summary
 

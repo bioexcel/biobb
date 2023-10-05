@@ -26,6 +26,7 @@ a:visited { color:#9e8830; }
 .icon:before { display:none; }
 
 .rst-content blockquote { margin-left: 0; background: #b5e0dd; padding: 15px; }
+.rst-content blockquote div p { margin:5px; }
 .rst-content blockquote code.literal { color: #29b3b6; }
 
 dl.docutils dt {
