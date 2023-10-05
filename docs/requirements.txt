@@ -1,2 +1,4 @@
 # docutils==0.17.1
+sphinx
+sphinx_rtd_theme
 recommonmark
