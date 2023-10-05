@@ -12,13 +12,13 @@
 # All configuration values have a default; values that are commented out
 # serve to show the default.
 
-import sys
-from pathlib import Path
+#import sys
+#from pathlib import Path
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
-sys.path.insert(0, str(Path('../../').resolve()))
+#sys.path.insert(0, str(Path('../../').resolve()))
 
 # -- General configuration ------------------------------------------------
 
@@ -29,13 +29,13 @@ sys.path.insert(0, str(Path('../../').resolve()))
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.autodoc',
+    #'sphinx.ext.autodoc',
     'sphinx.ext.coverage',
     'sphinx.ext.mathjax',
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
     'sphinx.ext.napoleon',
-    #'recommonmark'
+    'recommonmark'
 ]
 
 # Using Google docstring style
@@ -51,9 +51,9 @@ templates_path = ['_templates']
 # source_suffix = ['.rst', '.md']
 
 # -- Integrate markdown ---------------------------------------------------
-source_parsers = {
-   '.md': 'recommonmark.parser.CommonMarkParser',
-}
+#source_parsers = {
+#   '.md': 'recommonmark.parser.CommonMarkParser',
+#}
 
 source_suffix = ['.rst', '.md']
 
