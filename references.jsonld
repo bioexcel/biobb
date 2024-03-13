@@ -1,0 +1,11 @@
+{
+  "@context": "http://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "BioExcel Building Blocks",
+  "description": "The BioExcel Building Blocks (BioBB) library is a collection of portable wrappers on top of common biomolecular simulation tools.",
+  "url": "https://mmb.irbbarcelona.org/biobb",
+  "applicationCategory": "Computational Biology tool",
+  "citation": "https://www.nature.com/articles/s41597-019-0177-4",
+  "license": "https://www.apache.org/licenses/LICENSE-2.0",
+  "softwareVersion": "4.1.0"
+}
