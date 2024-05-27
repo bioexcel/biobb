@@ -11,6 +11,7 @@
 
 [![fair-software.eu](https://img.shields.io/badge/fair--software.eu-%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F-green)](https://fair-software.eu)
 [![](https://www.bestpractices.dev/projects/8847/badge)](https://www.bestpractices.dev/projects/8847)
+[![CITATION.cff](https://github.com/bioexcel/biobb/actions/workflows/cff-validator.yaml/badge.svg)](https://github.com/bioexcel/biobb/actions/workflows/cff-validator.yaml)
 
 [](https://bestpractices.coreinfrastructure.org/projects/8847/badge)
 
