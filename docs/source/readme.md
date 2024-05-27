@@ -55,6 +55,7 @@ The latest documentation of our biobb collections can be found in our readthedoc
 - [biobb_model](http://biobb_model.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_model): Biobb_model is the Biobb module collection to check and model 3d structures, create mutations or reconstruct missing atoms.
 - [biobb_pmx](http://biobb_pmx.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_pmx): Biobb_pmx is the Biobb module collection to perform [PMX](http://pmx.mpibpc.mpg.de) executions.
 - [biobb_structure_utils](http://biobb_structure_utils.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_structure_utils): Biobb_structure_utils is the Biobb module collection to modify or extract information from a PDB structure file.
+- [biobb_pytorch](https://biobb-pytorch.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_pytorch): Biobb_pytorch is the Biobb module collection to create and train ML & DL models using the popular PyTorch Python library.
 - [biobb_vs](https://biobb-vs.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_vs): Biobb_vs is the Biobb module collection to perform virtual screening studies.
 - [biobb_adapters](http://biobb_adapters.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_adapters): Biobb_adapters is the Biobb module collection to use the building blocks with several workflow managers.
 - [biobb_template](http://biobb_template.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_template): Boilerplate code and template examples to create your own Biobbs.
@@ -66,7 +67,7 @@ The latest documentation of our biobb collections can be found in our readthedoc
 
 ## Version
 
-v4.1.0 2023.3
+v4.2.0 2024.1
 
 ## Copyright & Licensing
 

@@ -1,84 +1,103 @@
 # YAML 1.2
 ---
-abstract: "BioExcel Building Blocks (BioBB) library. BioBB’s are built as Python wrappers to provide an interoperable architecture. BioBB’s have been integrated in a chain of usual software management tools to generate data ontologies, documentation, installation packages, software containers and ways of integration with workflow managers, that make them usable in most computational environments."
+abstract: BioExcel Building Blocks (BioBB) library. BioBB's are built as Python wrappers to provide an interoperable architecture. BioBB's have been integrated in a chain of usual software management tools to generate data ontologies, documentation, installation packages, software containers and ways of integration with workflow managers, that make them usable in most computational environments.
 authors:
-  -
-    affiliation: "Barcelona Supercomputing Center (BSC)"
-    family-names: "Andrio"
-    given-names: "Pau"
-    orcid: "https://orcid.org/0000-0003-2116-3880"
-  -
-    affiliation: "Institute for Research in Biomedicine (IRB Barcelona)"
-    family-names: "Hospital"
-    given-names: "Adam"
-    orcid: "https://orcid.org/0000-0002-8291-8071"
-  -
-    affiliation: "Barcelona Supercomputing Center (BSC)"
-    family-names: "Conejero"
-    given-names:  "Javier"
-    orcid: "https://orcid.org/0000-0001-6401-6229"
-  -
-    affiliation: "Barcelona Supercomputing Center (BSC)"
-    family-names: "Jordà"
-    given-names: "Luis"
-    orcid: "https://orcid.org/0000-0002-9407-9703"
-  -
-    affiliation: "Barcelona Supercomputing Center (BSC)"
-    family-names: "Del Pino"
-    given-names: "Marc"
-    orcid: "https://orcid.org/0000-0001-5565-7577"
-  -
-    affiliation: "Barcelona Supercomputing Center (BSC)"
-    family-names: "Laia"
-    given-names: "Codó"
-    orcid: "https://orcid.org/0000-0002-6797-8746"
-  -
-    affiliation: "School of computer Science, the University of Manchester"
-    family-names: Werkhoven
-    given-names: Ben
-    name-particle: van
-    orcid: "https://orcid.org/0000-0002-7508-3272"
-  -
-    affiliation: "University of Manchester (UOM)"
-    family-names: "Soiland-Reyes"
-    given-names: "Stian"
-    orcid: "https://orcid.org/0000-0001-9842-9718"
-  -
-    affiliation: "University of Manchester (UOM)"
-    family-names: "Goble"
-    given-names: "Carole"
-    orcid: "https://orcid.org/0000-0003-1219-2137"
-  -
-    affiliation: "Barcelona Supercomputing Center (BSC)"
-    family-names: "Lezzi"
-    given-names: "Daniele"
-    orcid: "https://orcid.org/0000-0001-5081-7244"
-  -
-    affiliation: "Barcelona Supercomputing Center (BSC)"
-    family-names: "Rosa M"
-    given-names: "Badia"
-    orcid: "https://orcid.org/0000-0003-2941-5499"
-  -
-    affiliation: "Institute for Research in Biomedicine (IRB Barcelona), University of Barcelona (UB)"
-    family-names: "Orozco"
-    given-names: "Modesto"
-    orcid: "https://orcid.org/0000-0002-8608-3278"
-  -
-    affiliation: "Barcelona Supercomputing Center (BSC), University of Barcelona (UB)"
-    family-names: "Gelpí"
-    given-names: "Josep Ll."
-    orcid: "https://orcid.org/0000-0002-0566-7723"
-    email: "gelpi@ub.edu"
-
-cff-version: "1.2.0"
-date-released: "2019-09-10"
+  - affiliation: Barcelona Supercomputing Center (BSC)
+    family-names: Andrio
+    given-names: Pau
+    orcid: https://orcid.org/0000-0003-2116-3880
+  - affiliation: Institute for Research in Biomedicine (IRB Barcelona)
+    family-names: Hospital
+    given-names: Adam
+    orcid: https://orcid.org/0000-0002-8291-8071
+  - affiliation: Institute for Research in Biomedicine (IRB Barcelona)
+    family-names: Bayarri
+    given-names: Genís
+    orcid: https://orcid.org/0000-0003-0513-0288
+  - affiliation: Institute for Research in Biomedicine (IRB Barcelona)
+    family-names: García
+    given-names: Agustín
+    orcid: https://orcid.org/0009-0002-2159-965X
+  - affiliation: Institute for Research in Biomedicine (IRB Barcelona), University
+      of Barcelona (UB)
+    family-names: Orozco
+    given-names: Modesto
+    orcid: https://orcid.org/0000-0002-8608-3278
+  - affiliation: Barcelona Supercomputing Center (BSC), University of Barcelona (UB)
+    family-names: Gelpí
+    given-names: Josep Ll.
+    orcid: https://orcid.org/0000-0002-0566-7723
+    email: gelpi@ub.edu
+cff-version: 1.2.0
+date-released: 2019-09-10
 keywords:
-  - "BioExcel"
-  - "BioBB"
-  - "Bioinformatics"
-  - "Computational Biology"
-  - "Biomolecular Workflows"
-license: "Apache-2.0"
-message: "If you use this software, please cite it using these metadata."
-repository-code: "https://github.com/bioexcel/biobb"
-title: "BioExcel Building Blocks, a software library for interoperable biomolecular simulation workflows"
+  - BioExcel
+  - BioBB
+  - Bioinformatics
+  - Computational Biology
+  - Biomolecular Workflows
+license: Apache-2.0
+message: If you use this dataset, please cite it using the metadata from this file.
+repository-code: https://github.com/bioexcel/biobb
+title: BioExcel Building Blocks, a software library for interoperable biomolecular simulation workflows
+preferred-citation:
+  type: article
+  authors:
+    - affiliation: Barcelona Supercomputing Center (BSC)
+      family-names: Andrio
+      given-names: Pau
+      orcid: https://orcid.org/0000-0003-2116-3880
+    - affiliation: Institute for Research in Biomedicine (IRB Barcelona)
+      family-names: Hospital
+      given-names: Adam
+      orcid: https://orcid.org/0000-0002-8291-8071
+    - affiliation: Barcelona Supercomputing Center (BSC)
+      family-names: Conejero
+      given-names: Javier
+      orcid: https://orcid.org/0000-0001-6401-6229
+    - affiliation: Barcelona Supercomputing Center (BSC)
+      family-names: Jordà
+      given-names: Luis
+      orcid: https://orcid.org/0000-0002-9407-9703
+    - affiliation: Barcelona Supercomputing Center (BSC)
+      family-names: Del Pino
+      given-names: Marc
+      orcid: https://orcid.org/0000-0001-5565-7577
+    - affiliation: Barcelona Supercomputing Center (BSC)
+      family-names: Laia
+      given-names: Codó
+      orcid: https://orcid.org/0000-0002-6797-8746
+    - affiliation: University of Manchester (UOM)
+      family-names: Soiland-Reyes
+      given-names: Stian
+      orcid: https://orcid.org/0000-0001-9842-9718
+    - affiliation: University of Manchester (UOM)
+      family-names: Goble
+      given-names: Carole
+      orcid: https://orcid.org/0000-0003-1219-2137
+    - affiliation: Barcelona Supercomputing Center (BSC)
+      family-names: Lezzi
+      given-names: Daniele
+      orcid: https://orcid.org/0000-0001-5081-7244
+    - affiliation: Barcelona Supercomputing Center (BSC)
+      family-names: Badia
+      given-names: Rosa M
+      orcid: https://orcid.org/0000-0003-2941-5499
+    - affiliation: Institute for Research in Biomedicine (IRB Barcelona), University
+        of Barcelona (UB)
+      family-names: Orozco
+      given-names: Modesto
+      orcid: https://orcid.org/0000-0002-8608-3278
+    - affiliation: Barcelona Supercomputing Center (BSC), University of Barcelona (UB)
+      family-names: Gelpí
+      given-names: Josep Ll.
+      orcid: https://orcid.org/0000-0002-0566-7723
+      email: gelpi@ub.edu
+  doi: 10.1038/s41597-019-0177-4
+  journal: Nature Scientific Data
+  month: 9
+  start: 169
+  title: BioExcel Building Blocks, a software library for interoperable biomolecular simulation workflows
+  issue: 1
+  volume: 6
+  year: 2019
