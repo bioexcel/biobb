@@ -17,7 +17,7 @@
 
 [//]: # (The previous line invisible link is for compatibility with the howfairis script https://github.com/fair-software/howfairis-github-action/tree/main wich uses the old bestpractices URL)
 
-# biobb
+# BioExcel Building Blocks (BioBB)
 
 [![](https://mmb.irbbarcelona.org/biobb/assets/layouts/layout3/img/logo.png)](https://mmb.irbbarcelona.org/biobb/)
 
@@ -38,7 +38,7 @@ Feedback and contact: <http://mmb.irbbarcelona.org/biobb/contact>
 
 ## Documentation
 
-The latest documentation of our biobb collections can be found in our readthedocs sites:
+The latest documentation of our BioBB collections can be found in our readthedocs sites:
 - [biobb_amber](https://biobb-amber.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_amber): Biobb_amber is a BioBB category for AMBER MD package, allowing setup and simulation of atomistic MD simulations using AMBER MD package and its associated AMBER tools.
 - [biobb_analysis](http://biobb_analysis.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_analysis): Biobb_analysis is the Biobb module collection to perform analysis of molecular dynamics simulations.
 - [biobb_chemistry](http://biobb_chemistry.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_chemistry): Biobb_chemistry is the Biobb module collection to perform chemistry over molecular dynamics simulations.
@@ -61,10 +61,15 @@ The latest documentation of our biobb collections can be found in our readthedoc
 - [biobb_adapters](http://biobb_adapters.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_adapters): Biobb_adapters is the Biobb module collection to use the building blocks with several workflow managers.
 - [biobb_template](http://biobb_template.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_template): Boilerplate code and template examples to create your own Biobbs.
 
+More information of the BioBB collections available at the official website: [https://mmb.irbbarcelona.org/biobb/documentation/source](https://mmb.irbbarcelona.org/biobb/documentation/source)
+
 ## Videos
 
-- Introduction to BioExcel Building Blocks: [https://www.youtube.com/watch?v=I7ZxRBhYO3E](https://www.youtube.com/watch?v=I7ZxRBhYO3E)
-- Introduction to workflows with BioExcel Building Blocks: [https://www.youtube.com/watch?v=ou1DOGNs0xM](https://www.youtube.com/watch?v=ou1DOGNs0xM)
+- BioExcel Building Blocks in BioExcel YouTube channel: [https://www.youtube.com/@BioExcelCoE/search?query=biobb](https://www.youtube.com/@BioExcelCoE/search?query=biobb)
+
+## Workflows
+
+- All the workflows are available at the official website: [https://mmb.irbbarcelona.org/biobb/workflows](https://mmb.irbbarcelona.org/biobb/workflows)
 
 ## Version
 
