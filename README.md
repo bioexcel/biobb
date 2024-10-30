@@ -73,7 +73,7 @@ More information of the BioBB collections available at the official website: [ht
 
 ## Version
 
-v4.2.0 2024.1
+v5.0.0 2024.2
 
 ## Copyright & Licensing
 

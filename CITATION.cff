@@ -16,6 +16,10 @@ authors:
     family-names: "García"
     given-names: "Agustín"
     orcid: "https://orcid.org/0009-0002-2159-965X"
+  - affiliation: "Institute for Research in Biomedicine (IRB Barcelona)"
+    family-names: "Chaves"
+    given-names: "Rubén"
+    orcid: ""
   - affiliation: "Institute for Research in Biomedicine (IRB Barcelona), University of Barcelona (UB)"
     family-names: "Orozco"
     given-names: "Modesto"
@@ -39,7 +43,7 @@ repository-code: "https://github.com/bioexcel/biobb"
 title: "BioExcel Building Blocks, a software library for interoperable biomolecular simulation workflows"
 doi: "10.1038/s41597-019-0177-4"
 url: "https://mmb.irbbarcelona.org/biobb/"
-version: 4.2.0
+version: 5.0.0
 preferred-citation:
   type: "article"
   authors:

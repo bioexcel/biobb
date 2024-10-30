@@ -68,7 +68,7 @@ The latest documentation of our biobb collections can be found in our readthedoc
 
 ## Version
 
-v4.2.0 2024.1
+v5.0.0 2024.1
 
 ## Copyright & Licensing
 
