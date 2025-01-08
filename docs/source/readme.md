@@ -1,5 +1,5 @@
 [![](https://img.shields.io/badge/OS-Unix%20%7C%20MacOS-blue)](https://github.com/bioexcel/biobb)
-[![](https://img.shields.io/badge/Python%20Versions-3.8%20%7C%203.9%20%7C%203.10-blue)](https://pypi.org/project/biobb/)
+[![](https://img.shields.io/badge/Python%20Versions-3.9%20%7C%203.10%20%7C%203.11-blue)](https://pypi.org/project/biobb/)
 [![](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![](https://img.shields.io/badge/Open%20Source%3f-Yes!-blue)](https://github.com/bioexcel/biobb)
 
@@ -17,9 +17,9 @@
 
 [//]: # (The previous line invisible link is for compatibility with the howfairis script https://github.com/fair-software/howfairis-github-action/tree/main wich uses the old bestpractices URL)
 
-# biobb
+# BioExcel Building Blocks (BioBB)
 
-[![](https://mmb.irbbarcelona.org/biobb/assets/layouts/layout3/img/logo.png)](https://mmb.irbbarcelona.org/biobb/)
+<a href="https://mmb.irbbarcelona.org/biobb/" target="_blank"><img src="https://mmb.irbbarcelona.org/biobb/assets/layouts/layout3/img/logo.png" /></a>
 
 ## Survey
 
@@ -38,37 +38,44 @@ Feedback and contact: <http://mmb.irbbarcelona.org/biobb/contact>
 
 ## Documentation
 
-The latest documentation of our biobb collections can be found in our readthedocs sites:
+The latest documentation of our BioBB collections can be found in our readthedocs sites:
 - [biobb_amber](https://biobb-amber.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_amber): Biobb_amber is a BioBB category for AMBER MD package, allowing setup and simulation of atomistic MD simulations using AMBER MD package and its associated AMBER tools.
-- [biobb_analysis](http://biobb_analysis.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_analysis): Biobb_analysis is the Biobb module collection to perform analysis of molecular dynamics simulations.
-- [biobb_chemistry](http://biobb_chemistry.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_chemistry): Biobb_chemistry is the Biobb module collection to perform chemistry over molecular dynamics simulations.
+- [biobb_analysis](http://biobb-analysis.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_analysis): Biobb_analysis is the Biobb module collection to perform analysis of molecular dynamics simulations.
+- [biobb_chemistry](http://biobb-chemistry.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_chemistry): Biobb_chemistry is the Biobb module collection to perform chemistry over molecular dynamics simulations.
 - [biobb_cmip](https://biobb-cmip.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_cmip): Biobb_cmip is the Biobb module collection to compute classical molecular interaction potentials.
-- [biobb_common](http://biobb_common.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_common): Biobb_common is the base package required to use the biobb packages.
+- [biobb_common](http://biobb-common.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_common): Biobb_common is the base package required to use the biobb packages.
 - [biobb_cp2k](https://biobb-cp2k.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_cp2k): Biobb_cp2k is the Biobb module collection to compute classical molecular interaction potentials. 
 - [biobb_dna](https://biobb-dna.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_dna): Biobb_dna is the Biobb module collection to perform analyses and transformations on nucleic acid trajectories and helical parameter data.
 - [biobb_flexdyn](https://biobb-flexdyn.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_flexdyn): Biobb_flexdyn is the Biobb module collection for studies on the conformational landscape of native proteins.
 - [biobb_flexserv](https://biobb-flexserv.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_flexserv): Biobb_flexserv is a BioBB category for biomolecular flexibility studies on protein 3D structures.
 - [biobb_godmd](https://biobb-godmd.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_godmd): Biobb_godmd is the Biobb module collection to compute protein conformational transitions with the GOdMD method.
 - [biobb_gromacs](https://biobb-gromacs.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_gromacs): Biobb_gromacs is the Biobb module collection to perform molecular dynamics simulations using the GROMACS MD suite.
-- [biobb_io](http://biobb_io.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_io): Biobb_io is the Biobb module collection to fetch data to be consumed by the rest of the Biobb building blocks.
-- [biobb_md](http://biobb_md.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_md): Biobb_md is the Biobb module collection to perform molecular dynamics simulations. **IMPORTANT:** This package has been discontinued, superseeded by [biobb_gromacs](https://github.com/bioexcel/biobb_gromacs).
-- [biobb_ml](https://biobb-ml.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_ml): Biobb_ml is the Biobb module collection to perform machine learning predictions. 
-- [biobb_model](http://biobb_model.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_model): Biobb_model is the Biobb module collection to check and model 3d structures, create mutations or reconstruct missing atoms.
-- [biobb_pmx](http://biobb_pmx.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_pmx): Biobb_pmx is the Biobb module collection to perform [PMX](http://pmx.mpibpc.mpg.de) executions.
-- [biobb_structure_utils](http://biobb_structure_utils.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_structure_utils): Biobb_structure_utils is the Biobb module collection to modify or extract information from a PDB structure file.
+- [biobb_io](http://biobb-io.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_io): Biobb_io is the Biobb module collection to fetch data to be consumed by the rest of the Biobb building blocks.
+- [biobb_md](http://biobb-md.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_md): Biobb_md is the Biobb module collection to perform molecular dynamics simulations. **IMPORTANT:** This package has been discontinued, superseeded by [biobb_gromacs](https://github.com/bioexcel/biobb_gromacs).
+- [biobb_ml](https://biobb-ml.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_ml): Biobb_ml is the Biobb module collection to perform machine learning predictions. **IMPORTANT:** This package has been discontinued, superseeded by [biobb_pytorch](https://github.com/bioexcel/biobb_pytorch). 
+- [biobb_model](http://biobb-model.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_model): Biobb_model is the Biobb module collection to check and model 3d structures, create mutations or reconstruct missing atoms.
+- [biobb_pmx](http://biobb-pmx.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_pmx): Biobb_pmx is the Biobb module collection to perform [PMX](http://pmx.mpibpc.mpg.de) executions.
+- [biobb_structure_utils](http://biobb-structure-utils.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_structure_utils): Biobb_structure_utils is the Biobb module collection to modify or extract information from a PDB structure file.
 - [biobb_pytorch](https://biobb-pytorch.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_pytorch): Biobb_pytorch is the Biobb module collection to create and train ML & DL models using the popular PyTorch Python library.
 - [biobb_vs](https://biobb-vs.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_vs): Biobb_vs is the Biobb module collection to perform virtual screening studies.
-- [biobb_adapters](http://biobb_adapters.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_adapters): Biobb_adapters is the Biobb module collection to use the building blocks with several workflow managers.
-- [biobb_template](http://biobb_template.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_template): Boilerplate code and template examples to create your own Biobbs.
+- [biobb_mem](https://biobb-mem.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_mem): Biobb_mem is a BioBB category for membrane analysis and manipulation. It allows analysis of membrane properties and manipulation of membrane systems using tools like MDAnalysis and LiPyphilic.
+- [biobb_pdb_tools](https://biobb-pdb-tools.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_pdb_tools): Biobb PDB Tools is a swiss army knife for manipulating and editing PDB files.
+- [biobb_adapters](http://biobb-adapters.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_adapters): Biobb_adapters is the Biobb module collection to use the building blocks with several workflow managers.
+- [biobb_template](http://biobb-template.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_template): Boilerplate code and template examples to create your own Biobbs.
+
+More information of the BioBB collections available at the official website: [https://mmb.irbbarcelona.org/biobb/documentation/source](https://mmb.irbbarcelona.org/biobb/documentation/source)
 
 ## Videos
 
-- Introduction to BioExcel Building Blocks: [https://www.youtube.com/watch?v=I7ZxRBhYO3E](https://www.youtube.com/watch?v=I7ZxRBhYO3E)
-- Introduction to workflows with BioExcel Building Blocks: [https://www.youtube.com/watch?v=ou1DOGNs0xM](https://www.youtube.com/watch?v=ou1DOGNs0xM)
+- BioExcel Building Blocks in BioExcel YouTube channel: [https://www.youtube.com/@BioExcelCoE/search?query=biobb](https://www.youtube.com/@BioExcelCoE/search?query=biobb)
+
+## Workflows
+
+- All the workflows are available at the official website: [https://mmb.irbbarcelona.org/biobb/workflows](https://mmb.irbbarcelona.org/biobb/workflows)
 
 ## Version
 
-v5.0.0 2024.1
+v5.0.0 2024.2
 
 ## Copyright & Licensing
 
