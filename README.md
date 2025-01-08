@@ -60,7 +60,7 @@ The latest documentation of our BioBB collections can be found in our readthedoc
 - [biobb_vs](https://biobb-vs.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_vs): Biobb_vs is the Biobb module collection to perform virtual screening studies.
 - [biobb_mem](https://biobb-mem.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_mem): Biobb_mem is a BioBB category for membrane analysis and manipulation. It allows analysis of membrane properties and manipulation of membrane systems using tools like MDAnalysis and LiPyphilic.
 - [biobb_pdb_tools](https://biobb-pdb-tools.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_pdb_tools): Biobb PDB Tools is a swiss army knife for manipulating and editing PDB files.
-- [biobb_adapters](http://biobb-adapters.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_adapters): Biobb_adapters is the Biobb module collection to use the building blocks with several workflow managers.
+- biobb_adapters [\[GitHub\]](https://github.com/bioexcel/biobb_adapters): Biobb_adapters is the Biobb module collection to use the building blocks with several workflow managers.
 - [biobb_template](http://biobb-template.readthedocs.io/en/latest/) [\[GitHub\]](https://github.com/bioexcel/biobb_template): Boilerplate code and template examples to create your own Biobbs.
 
 More information of the BioBB collections available at the official website: [https://mmb.irbbarcelona.org/biobb/documentation/source](https://mmb.irbbarcelona.org/biobb/documentation/source)
