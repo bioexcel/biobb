@@ -19,7 +19,7 @@
 
 # BioExcel Building Blocks (BioBB)
 
-<a href="https://mmb.irbbarcelona.org/biobb/" target="_blank"><img src="https://mmb.irbbarcelona.org/biobb/assets/layouts/layout3/img/logo.png" /></a>
+<a href="https://mmb.irbbarcelona.org/biobb/" target="_blank"><img src="https://i0.wp.com/bioexcel.eu/wp-content/uploads/2020/10/Untitled-design-7.png?resize=300%2C150&ssl=1" /></a>
 
 ## Survey
 
