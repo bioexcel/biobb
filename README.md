@@ -85,6 +85,6 @@ This software has been developed in the [MMB group](http://mmb.irbbarcelona.org)
 * (c) 2015-2025 [Institute for Research in Biomedicine](https://www.irbbarcelona.org/)
 
 Licensed under the
-[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0), see the file [LICENSE](./LICENSE) for details.
+[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0), see the file LICENSE for details.
 
 ![](https://bioexcel.eu/wp-content/uploads/2019/04/Bioexcell_logo_1080px_transp.png "Bioexcel")
