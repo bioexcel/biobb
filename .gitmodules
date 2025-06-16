@@ -1,0 +1,9 @@
+[submodule "biobb/biobb_common"]
+	path = biobb/biobb_common
+	url = https://github.com/bioexcel/biobb_common.git
+[submodule "biobb/biobb_mem"]
+	path = biobb/biobb_mem
+	url = https://github.com/bioexcel/biobb_mem.git
+[submodule "biobb/biobb_haddock"]
+	path = biobb/biobb_haddock
+	url = https://github.com/bioexcel/biobb_haddock.git
