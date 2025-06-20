@@ -1,5 +1,5 @@
 [![](https://img.shields.io/badge/OS-Unix%20%7C%20MacOS-blue)](https://github.com/bioexcel/biobb)
-[![](https://img.shields.io/badge/Python%20Versions-3.9%20%7C%203.10%20%7C%203.11-blue)](https://pypi.org/project/biobb/)
+[![](https://img.shields.io/badge/Python%20Versions-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12-blue)](https://pypi.org/project/biobb/)
 [![](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![](https://img.shields.io/badge/Open%20Source%3f-Yes!-blue)](https://github.com/bioexcel/biobb)
 
