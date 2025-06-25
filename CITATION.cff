@@ -42,7 +42,7 @@ repository-code: "https://github.com/bioexcel/biobb"
 title: "BioExcel Building Blocks, a software library for interoperable biomolecular simulation workflows"
 doi: "10.1038/s41597-019-0177-4"
 url: "https://mmb.irbbarcelona.org/biobb/"
-version: 5.0.0
+version: 5.1.0
 preferred-citation:
   type: "article"
   authors:
