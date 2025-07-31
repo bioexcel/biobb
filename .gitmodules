@@ -1,9 +1,6 @@
 [submodule "biobb/biobb_amber"]
 	path = biobb/biobb_amber
 	url = https://github.com/bioexcel/biobb_amber
-[submodule "biobb/biobb_analysis"]
-	path = biobb/biobb_analysis
-	url = https://github.com/bioexcel/biobb_analysis
 [submodule "biobb/biobb_chemistry"]
 	path = biobb/biobb_chemistry
 	url = https://github.com/bioexcel/biobb_chemistry
@@ -59,3 +56,6 @@
 [submodule "biobb/biobb_flexdyn"]
 	path = biobb/biobb_flexdyn
 	url = https://github.com/bioexcel/biobb_flexdyn
+[submodule "biobb/biobb_analysis"]
+	path = biobb/biobb_analysis
+	url = https://github.com/bioexcel/biobb_analysis
