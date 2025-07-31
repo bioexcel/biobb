@@ -1,4 +1,8 @@
 # Submodules
+To update the submodules to a specific tag, you can use the following command:
+```bash
+git submodule foreach --recursive 'git checkout YOUR_TAG_NAME || true'
+```
 
 To update the submodules to the last tagged version:
 ```bash
