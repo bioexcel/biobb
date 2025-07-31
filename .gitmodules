@@ -1,0 +1,67 @@
+[submodule "biobb/biobb_amber"]
+	path = biobb/biobb_amber
+	url = https://github.com/bioexcel/biobb_amber
+[submodule "biobb/biobb_analysis"]
+	path = biobb/biobb_analysis
+	url = https://github.com/bioexcel/biobb_analysis
+[submodule "biobb/biobb_chemistry"]
+	path = biobb/biobb_chemistry
+	url = https://github.com/bioexcel/biobb_chemistry
+[submodule "biobb/biobb_cmip"]
+	path = biobb/biobb_cmip
+	url = https://github.com/bioexcel/biobb_cmip
+[submodule "biobb/biobb_common"]
+	path = biobb/biobb_common
+	url = https://github.com/bioexcel/biobb_common
+[submodule "biobb/biobb_cp2k"]
+	path = biobb/biobb_cp2k
+	url = https://github.com/bioexcel/biobb_cp2k
+[submodule "biobb/biobb_dna"]
+	path = biobb/biobb_dna
+	url = https://github.com/bioexcel/biobb_dna
+[submodule "biobb/biobb_flexdyn"]
+	path = biobb/biobb_flexdyn
+	url = https://github.com/bioexcel/biobb_flexdyn
+[submodule "biobb/biobb_flexserv"]
+	path = biobb/biobb_flexserv
+	url = https://github.com/bioexcel/biobb_flexserv
+[submodule "biobb/biobb_godmd"]
+	path = biobb/biobb_godmd
+	url = https://github.com/bioexcel/biobb_godmd
+[submodule "biobb/biobb_gromacs"]
+	path = biobb/biobb_gromacs
+	url = https://github.com/bioexcel/biobb_gromacs
+[submodule "biobb/biobb_haddock"]
+	path = biobb/biobb_haddock
+	url = https://github.com/bioexcel/biobb_haddock
+[submodule "biobb/biobb_io"]
+	path = biobb/biobb_io
+	url = https://github.com/bioexcel/biobb_io
+[submodule "biobb/biobb_md"]
+	path = biobb/biobb_md
+	url = https://github.com/bioexcel/biobb_md
+[submodule "biobb/biobb_ml"]
+	path = biobb/biobb_ml
+	url = https://github.com/bioexcel/biobb_ml
+[submodule "biobb/biobb_model"]
+	path = biobb/biobb_model
+	url = https://github.com/bioexcel/biobb_model
+[submodule "biobb/biobb_pdb_tools"]
+	path = biobb/biobb_pdb_tools
+	url = https://github.com/bioexcel/biobb_pdb_tools
+[submodule "biobb/biobb_pmx"]
+	path = biobb/biobb_pmx
+	url = https://github.com/bioexcel/biobb_pmx
+[submodule "biobb/biobb_pytorch"]
+	path = biobb/biobb_pytorch
+	url = https://github.com/bioexcel/biobb_pytorch
+[submodule "biobb/biobb_structure_utils"]
+	path = biobb/biobb_structure_utils
+	url = https://github.com/bioexcel/biobb_structure_utils
+[submodule "biobb/biobb_vs"]
+	path = biobb/biobb_vs
+	url = https://github.com/bioexcel/biobb_vs
+
+[submodule "biobb/biobb_mem"]
+	path = biobb/biobb_mem
+	url = https://github.com/bioexcel/biobb_mem
