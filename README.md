@@ -71,7 +71,7 @@ More information of the BioBB collections available at the official website: [ht
 
 ## Workflows
 
-- All the workflows are available at the official website: [https://mmb.irbbarcelona.org/biobb/workflows](https://mmb.irbbarcelona.org/biobb/workflows)
+- All the workflows are available at the official website: [https://mmb.irbbarcelona.org/biobb/workflows](https://mmb.irbbarcelona.org/biobb/workflows) or in the [BioExcel GitHub](https://github.com/bioexcel/biobb_workflows) repository.
 
 ## Version
 
