@@ -19,9 +19,6 @@
 [submodule "biobb/biobb_dna"]
 	path = biobb/biobb_dna
 	url = https://github.com/bioexcel/biobb_dna
-[submodule "biobb/biobb_flexdyn"]
-	path = biobb/biobb_flexdyn
-	url = https://github.com/bioexcel/biobb_flexdyn
 [submodule "biobb/biobb_flexserv"]
 	path = biobb/biobb_flexserv
 	url = https://github.com/bioexcel/biobb_flexserv
@@ -37,12 +34,6 @@
 [submodule "biobb/biobb_io"]
 	path = biobb/biobb_io
 	url = https://github.com/bioexcel/biobb_io
-[submodule "biobb/biobb_md"]
-	path = biobb/biobb_md
-	url = https://github.com/bioexcel/biobb_md
-[submodule "biobb/biobb_ml"]
-	path = biobb/biobb_ml
-	url = https://github.com/bioexcel/biobb_ml
 [submodule "biobb/biobb_model"]
 	path = biobb/biobb_model
 	url = https://github.com/bioexcel/biobb_model
@@ -65,3 +56,6 @@
 [submodule "biobb/biobb_mem"]
 	path = biobb/biobb_mem
 	url = https://github.com/bioexcel/biobb_mem
+[submodule "biobb/biobb_flexdyn"]
+	path = biobb/biobb_flexdyn
+	url = https://github.com/bioexcel/biobb_flexdyn

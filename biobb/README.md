@@ -1,4 +1,9 @@
 # Submodules
+First fetch all the submodules tags:
+```bash
+git submodule foreach --recursive 'git fetch --tags'
+```
+
 To update the submodules to a specific tag, you can use the following command:
 ```bash
 git submodule foreach --recursive 'git checkout YOUR_TAG_NAME || true'
