@@ -1,0 +1,27 @@
+name: biobb_all
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - biobb_amber==5.1.0
+  - biobb_analysis==5.1.1
+  - biobb_chemistry==5.1.0
+  - biobb_cmip==5.1.0
+  - biobb_cp2k==5.1.0
+  - biobb_dna==5.1.0
+  - biobb_flexdyn==5.1.0
+  - biobb_flexserv==5.1.0
+  - biobb_godmd==5.1.1
+  - biobb_gromacs==5.1.1
+  - biobb_haddock==5.1.0
+  - biobb_io==5.1.0
+  - biobb_mem==5.1.0
+  - biobb_model==5.1.0
+  - biobb_pdb_tools==5.1.0
+  - biobb_pmx==5.1.0
+  #- biobb_pytorch==5.1.0
+  - biobb_structure_utils==5.1.0
+  - biobb_vs==5.1.0
+  - biobb_adapters==5.1.0
+  - conda-pack
+

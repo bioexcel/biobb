@@ -59,3 +59,9 @@
 [submodule "biobb/biobb_analysis"]
 	path = biobb/biobb_analysis
 	url = https://github.com/bioexcel/biobb_analysis
+[submodule "biobb/utils_biobb"]
+	path = biobb/utils_biobb
+	url = https://github.com/bioexcel/utils_biobb
+[submodule "biobb/biobb_adapters"]
+	path = biobb/biobb_adapters
+	url = https://github.com/bioexcel/biobb_adapters

@@ -21,5 +21,5 @@ git clone --recurse-submodules https://github.com/bioexcel/biobb.git
 
 To pull after cloning:
 ```bash
-git submodule update --init --recursive
+git submodule update --remote --recursive
 ```
