@@ -1,3 +1,6 @@
+[submodule "biobb/biobb_adapters"]
+	path = biobb/biobb_adapters
+	url = https://github.com/bioexcel/biobb_adapters
 [submodule "biobb/biobb_amber"]
 	path = biobb/biobb_amber
 	url = https://github.com/bioexcel/biobb_amber
@@ -49,7 +52,6 @@
 [submodule "biobb/biobb_vs"]
 	path = biobb/biobb_vs
 	url = https://github.com/bioexcel/biobb_vs
-
 [submodule "biobb/biobb_mem"]
 	path = biobb/biobb_mem
 	url = https://github.com/bioexcel/biobb_mem
@@ -62,6 +64,3 @@
 [submodule "biobb/utils_biobb"]
 	path = biobb/utils_biobb
 	url = https://github.com/bioexcel/utils_biobb
-[submodule "biobb/biobb_adapters"]
-	path = biobb/biobb_adapters
-	url = https://github.com/bioexcel/biobb_adapters

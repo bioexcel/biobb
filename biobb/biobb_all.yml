@@ -19,7 +19,7 @@ dependencies:
   - biobb_model==5.1.0
   - biobb_pdb_tools==5.1.0
   - biobb_pmx==5.1.0
-  #- biobb_pytorch==5.1.0
+  - biobb_pytorch==5.1.0  # Can be remove to make the environment lighter
   - biobb_structure_utils==5.1.0
   - biobb_vs==5.1.0
   - biobb_adapters==5.1.0

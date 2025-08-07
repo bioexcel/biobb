@@ -21,5 +21,17 @@ git clone --recurse-submodules https://github.com/bioexcel/biobb.git
 
 To pull after cloning:
 ```bash
-git submodule update --remote --recursive
+git submodule update --remote --merge --recursive
+```
+
+# Conda Environment Setup for BioBB
+Make the environment with all the BioBB packages and dependencies:
+```bash
+mamba env create -f biobb/biobb_all.yml
+```
+
+Make conda-pack:
+```bash
+conda activate biobb_all
+conda-pack -o biobb_all.tar.gz
 ```
