@@ -12,6 +12,11 @@ git submodule foreach --recursive 'git checkout YOUR_TAG_NAME || true'
 To update the submodules to the last tagged version:
 ```bash
 git submodule foreach --recursive 'git checkout $(git tag --sort=-v:refname | head -n 1)'
+
+```
+ To attach to the HEAD:
+```bash
+git submodule foreach --recursive 'git checkout HEAD'
 ```
 
 To pull while cloning the repository:
@@ -21,7 +26,7 @@ git clone --recurse-submodules https://github.com/bioexcel/biobb.git
 
 To pull after cloning:
 ```bash
-git submodule update --remote --merge --recursive
+git submodule update --init --remote --recursive
 ```
 
 # Conda Environment Setup for BioBB
