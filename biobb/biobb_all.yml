@@ -3,9 +3,10 @@ channels:
   - conda-forge
   - bioconda
 dependencies:
-  # - biobb_adapters>=5.2.1
+  # - python ==3.11
+  # - biobb_adapters>=5.3.0
   - biobb_amber>=5.3.1
-  # - biobb_analysis>=5.3.0
+  - biobb_analysis>=5.3.0
   - biobb_chemistry>=5.3.0
   - biobb_cmip>=5.3.0
   - biobb_cp2k>=5.3.0
@@ -13,8 +14,8 @@ dependencies:
   - biobb_flexdyn>=5.3.0
   - biobb_flexserv>=5.3.0
   - biobb_godmd>=5.3.0
-  - biobb_gromacs>=5.3.0
-  - biobb_haddock>=5.3.0
+  - biobb_gromacs>=5.3.1
+  - biobb_haddock>=5.3.1
   - biobb_io>=5.3.0
   - biobb_mem>=5.3.0
   - biobb_model>=5.3.0
@@ -29,4 +30,3 @@ dependencies:
   # - jupyter  # For notebooks
   # - pytest  # For testing
   # - twine  # For uploading to PyPI
-
