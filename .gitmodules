@@ -64,3 +64,6 @@
 [submodule "biobb/utils_biobb"]
 	path = biobb/utils_biobb
 	url = https://github.com/bioexcel/utils_biobb
+[submodule "biobb/biobb_structure_checking"]
+	path = biobb/biobb_structure_checking
+	url = https://github.com/bioexcel/biobb_structure_checking
