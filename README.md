@@ -76,14 +76,7 @@ More information of the BioBB collections available at the official website: [ht
 
 ## Claude Code skills
 
-Skills to add a building block to a biobb package and to release a new version of it, as a [Claude Code](https://code.claude.com) plugin. Install it once for your user and it works in any biobb repository:
-
-```bash
-claude plugin marketplace add bioexcel/biobb
-claude plugin install biobb@bioexcel
-```
-
-See [plugins/biobb](plugins/biobb/README.md) for how to use, update and edit them.
+[Claude Code](https://code.claude.com) skills to add a building block to a biobb package (`add-biobb-block`) and to release a new version of it (`release-biobb-version`) are in [.claude/skills](.claude/skills). They load when Claude Code starts in this repository; to use them in every biobb repository, link them into `~/.claude/skills` as explained in [.claude/README.md](.claude/README.md).
 
 ## Version
 

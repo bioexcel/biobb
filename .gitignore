@@ -1,1 +1,5 @@
 .DS_Store
+# Claude Code: share only the skills and their README, keep local notes and settings out
+.claude/*
+!.claude/README.md
+!.claude/skills/
