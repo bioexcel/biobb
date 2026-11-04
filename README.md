@@ -74,6 +74,17 @@ More information of the BioBB collections available at the official website: [ht
 
 - All the workflows are available at the official website: [https://mmb.irbbarcelona.org/biobb/workflows](https://mmb.irbbarcelona.org/biobb/workflows) or in the [BioExcel GitHub](https://github.com/bioexcel/biobb_workflows) repository.
 
+## Claude Code skills
+
+Skills to add a building block to a biobb package and to release a new version of it, as a [Claude Code](https://code.claude.com) plugin. Install it once for your user and it works in any biobb repository:
+
+```bash
+claude plugin marketplace add bioexcel/biobb
+claude plugin install biobb@bioexcel
+```
+
+See [plugins/biobb](plugins/biobb/README.md) for how to use, update and edit them.
+
 ## Version
 
 v5.1.0 2025.1

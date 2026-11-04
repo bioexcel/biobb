@@ -1,0 +1,15 @@
+{
+  "name": "bioexcel",
+  "owner": {
+    "name": "BioExcel",
+    "url": "https://github.com/bioexcel"
+  },
+  "description": "Claude Code plugins for the BioExcel Building Blocks (biobb)",
+  "plugins": [
+    {
+      "name": "biobb",
+      "source": "./plugins/biobb",
+      "description": "Skills to add a building block to a biobb package and to release a new version of it"
+    }
+  ]
+}

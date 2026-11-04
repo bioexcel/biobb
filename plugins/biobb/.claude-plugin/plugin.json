@@ -1,0 +1,12 @@
+{
+  "name": "biobb",
+  "description": "Skills to add a building block to a biobb package (add-biobb-block) and to release a new version of it (release-biobb-version)",
+  "author": {
+    "name": "BioExcel",
+    "url": "https://github.com/bioexcel"
+  },
+  "homepage": "https://github.com/bioexcel/biobb/tree/master/plugins/biobb",
+  "repository": "https://github.com/bioexcel/biobb",
+  "license": "Apache-2.0",
+  "keywords": ["biobb", "bioexcel", "building blocks", "bioconda", "release"]
+}
