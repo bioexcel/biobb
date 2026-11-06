@@ -7,7 +7,7 @@ dependencies:
   # - biobb_adapters>=5.3.0
   - biobb_amber>=5.3.3
   - biobb_analysis>=5.3.1
-  - biobb_chemistry>=5.3.1
+  - biobb_chemistry>=5.3.2
   - biobb_cmip>=5.3.1
   - biobb_cp2k>=5.3.0
   - biobb_dna>=5.3.0
