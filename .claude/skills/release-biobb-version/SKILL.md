@@ -272,8 +272,8 @@ the next event; the Linux tests take ~15 min.
 Bioconda's CI builds the conda package, and the biocontainers docker/singularity images appear
 some hours later. Verify the URLs already written in §3 actually resolve — a different build
 string means `README.md` and `biobb_<pkg>.json` need a follow-up commit. Also check readthedocs
-picked up the new tag, and create the GitHub release for `vX.Y.Z` with the changelog section as
-its body (the changelog URL points at it).
+picked up the new tag. Do not create a GitHub release: biobb only pushes tags (the changelog URL
+`releases/tag/vX.Y.Z` opens the tag page without one).
 
 ## Multi-package releases
 
